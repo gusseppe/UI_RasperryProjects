@@ -2,16 +2,18 @@
 tiles = function(){ /*Insert your own tiles here*/
 
 	/* READ THE TUTORIAL AT METRO-WEBDESIGN.INFO */
-	tileTitleText(0,0,0,2,1,'#789600','external:http://metro-webdesign.info','Welcome','This is the Lite version of the template!! Many tiles and functions are not included. This version is for testing purposes. For real use, go to http://metro-webdesign.info and Donate to get the full version!',['','',''],'');
-	tileLive(0,2,0,1,1,"#C33","","Live tile","","","","",3000,["Welcome","Be Creative","And make it yours","Change the tiles...","..the tile config is just an example"],['','',''],"noClick");
+	tileTitleText(0,0,0,2,1,'#1a8ec7','external:http://metro-webdesign.info','MUNDO DIRECTV','DIRECTV Perú es el líder de televisión satelital que ofrece una experiencia única de video con insuperable calidad de programación, tecnología y servicio.',['','',''],'');
+	tileLive(0,2,0,1,1,"#C33","","DirectTV","","","","",3000,["Bienvenido","","DirecTV Es el sistema de televisión satelital líder en el mundo","ofrece más canales y una espectacular selección de programación","Visitanos en www.directv.com.pe"],['','',''],"noClick");
 
-	tileTitleText(0,0,1,1,1,"#F90","Typography","<h3 class='white' style='font-weight:lighter'>Typography</h3>","",['','',''],'');
-	tileTitleTextImage(0,1,1,2,1,"#F60","","","Please read the tutorial at <br> <strong>http://metro-webdesign.info</strong> when you start. Remember this is the lite version, many functions are not supported! Donate to get many Cool FX tiles, compressing system, mobile version, no-javascript version, Admin Panel with file-editing, ...","",0,0,0,['','',''],'noClick');
+	tileTitleText(0,0,1,1,1,"#1a8ec7","perfil","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
+
+	tileTitleText(0,1,1,2,1,"#F90","valores","<h3 class='white' style='font-weight:lighter'>VALORES DE LA COMPAÑIA</h3>","",['','',''],'');
+
 	
-	tileImageSlider(0,0,2,2,1,'#854C8F','Terms of service','img/bg/img_300x145.jpg',1,"<h4 class='white'>Terms of Use! Must read!</h4>",0.4,['Must read','#854C8F','top'],'');
+	tileImageSlider(0,0,2,2,1,'#854C8F','Terms of service','img/bg/img_300x145.jpg',1,"<h4 class='white'>Beneficios</h4>",0.4,['Must read','#854C8F','top'],'');
 	tileImageSlider(0,2,2,1,1,"#BBB","#&slideshows","img/arrows/arrowRight.png",0.3,"<h5 class='align-center'>Go to last tilegroup</h5>",0.5,['','',''],'');
 	
-	tileLive(0,1,3,2,1,"#3B659C","Slider Example","Another live tile","img/icons/box_hint.png",50,2,5,6000,['With an image','As example'],['Click for slider page','#789600','bottom'],'');
+	tileLive(0,1,3,2,1,"#3B659C","Slider Example","Otro tile","img/icons/box_hint.png",50,2,5,6000,['Texto 1','Texto 2'],['Click para animacion','#789600','bottom'],'');
 	
 	/*GROUP 2 */
 	

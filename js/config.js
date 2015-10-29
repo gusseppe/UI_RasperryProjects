@@ -6,7 +6,7 @@ $tile.scale = 145;
 $tile.spacing = 10;
 
 $group.spacing = 700;//Space between the first elements of groups of tiles on the homepage.
-$group.titles = new Array("Home","Some images","Slideshows");
+$group.titles = new Array("Inicio","Algunas Imagenes","Slide");
 $group.inactive.opacity = 1;//opacity of inactive tiles (tiles that are not in the current tilegroup) , set to 0 for invisible, 1 for fully visible and any value between for transparent
 $group.inactive.clickable  = true;/* can users click tiles that are not in the current tileGroup? If false, a click on a tile of another tilegroup will make the screen go to that tilegroup
 It doesnt work when opaTiles = 1, and if opaTiles is a value close to 1, it is recommend to set this to TRUE!! otherwise this is very confusing */
@@ -25,3 +25,7 @@ pageLink['Images 1'] = 'myimages.html';
 pageLink['Images 2'] = 'otherimages.php';
 pageLink['Images 3'] = 'images3.php';
 pageLink['Terms of service'] = 'tos.php';
+pageLink['perfil'] = 'perfil.php';
+pageLink['beneficios'] = 'beneficios.php';
+pageLink['valores'] = 'valores.php';
+pageLink['fotos'] = 'fotos.php';

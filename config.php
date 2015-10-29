@@ -1,13 +1,13 @@
 <?PHP
 /* CONFIG SETTINGS - change this */
-$siteTitle = 'Climate Station'; /* will be displayed above the url-bar */
-$siteName = 'Estación Meteorológica usando RaspberryPi'; /* The biggest title on your homepage */
-$siteDesc ='Mide temperatura y humedad visualizados en un browser haciendo un trazado de gráficos en tiempo real '; /*subtitle */
-$siteTitleHome = 'Home'; // will be displayed above the url-bar when the home-page is open
-$siteFooter = '©your name';
+$siteTitle = 'DIRECTV'; /* will be displayed above the url-bar */
+$siteName = 'DIRECTV'; /* The biggest title on your homepage */
+$siteDesc ='Pagina para DIRECTV '; /*subtitle */
+$siteTitleHome = 'Inicio'; // will be displayed above the url-bar when the home-page is open
+$siteFooter = '©Mundo Direct TV';
 
-$siteMetaDesc = 'A description of your site for Google here';
-$siteMetaKeywords = 'Some, keywords, seperated, by, kommas, here, max 10';
+$siteMetaDesc = 'Una pagina creada para Direct TV';
+$siteMetaKeywords = 'directv, cable';
 
 $theme = "theme_default"; // name of the subfolder in themes directory for the theme you want
 
@@ -23,6 +23,10 @@ $pageLink['Images 1'] = 'myimages.html';
 $pageLink['Images 2'] = 'otherimages.php';
 $pageLink['Images 3'] = 'images3.php';
 $pageLink['Terms of service'] = 'tos.php';
+$pageLink['perfil'] = 'perfil.php';
+$pageLink['beneficios'] = 'beneficios.php';
+$pageLink['valores'] = 'valores.php';
+$pageLink['fotos'] = 'fotos.php';
 
 /*YOUR LOGIN FOR ADMIN SECTION, access it on http:/yoursite.com/admin/ */
 /*Admin section not supported in lite edition!*/

@@ -38,7 +38,7 @@ require_once("inc/seo.php");
     <script>
 	siteTitle = "<?php echo $siteTitle;?>";
 	siteTitleHome = "<?php echo $siteTitleHome;?>";
-	enableMobile = "false";
+	enableMobile = "true";
 	theme = "<?php echo $theme?>";
 	</script>    
     <script type="text/javascript" language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> 
