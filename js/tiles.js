@@ -7,13 +7,13 @@ tiles = function(){ /*Insert your own tiles here*/
 
 	tileTitleText(0,0,1,1,1,"#1a8ec7","external:gotolink:links/perfil.html","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
 
-	tileTitleText(0,1,1,2,1,"#F90","valores","<h3 class='white' style='font-weight:lighter'>VALORES DE LA COMPAÑIA</h3>","",['','',''],'');
+	tileTitleText(0,1,1,2,1,"#F90","external:gotolink:links/valores.html","<h3 class='white' style='font-weight:lighter'>VALORES DE LA COMPAÑIA</h3>","",['','',''],'');
 
 	
-	tileImageSlider(0,0,2,2,1,'#854C8F','Terms of service','img/bg/img_300x145.jpg',1,"<h4 class='white'>Beneficios</h4>",0.4,['Must read','#854C8F','top'],'');
+	tileImageSlider(0,0,2,2,1,'#854C8F','external:gotolink:links/beneficios.html','img/bg/img_300x145.jpg',1,"<h4 class='white'>Beneficios</h4>",0.4,['Must read','#854C8F','top'],'');
 	tileImageSlider(0,2,2,1,1,"#BBB","#&slideshows","img/arrows/arrowRight.png",0.3,"<h5 class='align-center'>Go to last tilegroup</h5>",0.5,['','',''],'');
 	
-	tileLive(0,1,3,2,1,"#3B659C","Slider Example","Otro tile","img/icons/box_hint.png",50,2,5,6000,['Texto 1','Texto 2'],['Click para animacion','#789600','bottom'],'');
+	tileLive(0,1,3,2,1,"#3B659C","external:gotolink:links/video.html","Video","img/icons/box_hint.png",50,2,5,6000,['Video DIRECTV','Haga click aqui'],['Click para reproducir','#789600','bottom'],'');
 	
 	/*GROUP 2 */
 	
