@@ -2,7 +2,7 @@
 tiles = function(){ /*Insert your own tiles here*/
 
 	/* READ THE TUTORIAL AT METRO-WEBDESIGN.INFO */
-	tileTitleText(0,0,0,2,1,'#1a8ec7','external:http://metro-webdesign.info','MUNDO DIRECTV','DIRECTV Perú es el líder de televisión satelital que ofrece una experiencia única de video con insuperable calidad de programación, tecnología y servicio.',['','',''],'');
+	tileTitleText(0,0,0,2,1,'#1a8ec7','external:gotolink:links/mundodirectv.html','MUNDO DIRECTV','DIRECTV Perú es el líder de televisión satelital que ofrece una experiencia única de video con insuperable calidad de programación, tecnología y servicio.',['','',''],'');
 	tileLive(0,2,0,1,1,"#C33","","DirectTV","","","","",3000,["Bienvenido","","DirecTV Es el sistema de televisión satelital líder en el mundo","ofrece más canales y una espectacular selección de programación","Visitanos en www.directv.com.pe"],['','',''],"noClick");
 
 	tileTitleText(0,0,1,1,1,"#1a8ec7","external:gotolink:links/perfil.html","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
