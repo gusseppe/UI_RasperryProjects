@@ -15,15 +15,15 @@ tiles = function(){ /*Insert your own tiles here*/
 	
 	tileImageSlider(0,0,2,2,1,'#854C8F','external:gotolink:links/beneficios.html','img/bg/beneficios.png',1,"<h4 class='white'>Beneficios</h4>",0.4,['Aqui los beneficios','#854C8F','top'],'');
 
-	tileImageSlider(0,2,2,1,1,"#BBB","external:gotolink:links/fotos.php","img/arrows/arrowRight.png",0.3,"<h5 class='align-center'>Ver las fotos</h5>",0.5,['','',''],'');
+	tileImageSlider(0,2,2,1,1,"#BBB","external:gotolink:links/fotos3.php","img/arrows/arrowRight.png",0.3,"<h5 class='align-center'>Ver las fotos</h5>",0.5,['','',''],'');
 	
 	tileLive(0,1,3,2,1,"#3B659C","external:gotolink:links/video.html","Video","img/icons/box_hint.png",50,2,5,6000,['Video DIRECTV','Haga click aqui'],['Click para reproducir','#789600','bottom'],'');
 	
 	/*GROUP 2 */
 	
 	
-	tileImg(1,0,0,1,1,"#F60","external:gotolink:links/fotos.php","img/bg/beneficios2.png",1,1,['Fotos evento','#789600','bottom','DirecTV',true],'');
-	tileImg(1,1,0,1,1,"#F90","external:gotolink:links/fotos.php","img/bg/valores.png",1,1,['Fotos','#F90','top','DirectTV',true],'');
+	tileImg(1,0,0,1,1,"#F60","external:gotolink:links/fotos3.php","img/bg/beneficios2.png",1,1,['Fotos evento','#789600','bottom','DirecTV',true],'');
+	tileImg(1,1,0,1,1,"#F90","external:gotolink:links/fotos3.php","img/bg/valores.png",1,1,['Fotos','#F90','top','DirectTV',true],'');
 	tileImg(1,2,0,1,1,"#C33","external:gotolink:links/subir.php","img/bg/perfiles.png",1,1,['Subir Fotos','#C33','bottom','Click Aqui',false],'');
 	
 	/*GROUP 3 */
