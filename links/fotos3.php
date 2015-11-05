@@ -5,9 +5,12 @@
 <meta charset=utf-8 />
 <meta name="description" content="description">
  
-<title>CSS</title>
  
 <link rel="stylesheet" type="text/css" media="screen" href="css/css.css"/>
+
+  <title>Fotos</title>
+
+
  
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
