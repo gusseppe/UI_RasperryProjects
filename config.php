@@ -3,7 +3,7 @@
 $siteTitle = 'DIRECTV'; /* will be displayed above the url-bar */
 $siteName = 'DIRECTV'; /* The biggest title on your homepage */
 $siteDesc ='Pagina para DIRECTV '; /*subtitle */
-$siteTitleHome = 'Inicio'; // will be displayed above the url-bar when the home-page is open
+$siteTitleHome = 'DIRECTV te cambia la vida'; // will be displayed above the url-bar when the home-page is open
 $siteFooter = '©Mundo Direct TV';
 
 $siteMetaDesc = 'Una pagina creada para Direct TV';

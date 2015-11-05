@@ -34,6 +34,8 @@ require_once("inc/seo.php");
 	<title><?php echo $siteTitle;?></title> 
     <meta name="viewport" content="width=200, initial-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'><!-- Include a nice font -->
+
+
 	<?php echo $css; if(file_exists($iecss)){include($iecss);};//include css lines?>  
     <script>
 	siteTitle = "<?php echo $siteTitle;?>";
@@ -45,7 +47,7 @@ require_once("inc/seo.php");
     <script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="js/inc/jquery181.js"><\/script>')</script>
     <?php echo $js;//include js lines?>
 </head>
-<body>
+<body  id="my_container">
 <div id="headerWrapper">
 	<?php include("header.php");echo $plHeader;?>   
 </div>

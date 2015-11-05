@@ -348,7 +348,8 @@ div#header h2{/*the smaller title */
 	color:#CCC;
 }
 a.groupTitle h3{ /* The tilegroup title on the homepage*/
-	font-size: 24px;
+	font-size: 28px;
+	color:#FFF;
 }
 a.groupTitle h3:hover{ /* The tilegroup title on the homepage*/
 	color:#F60;

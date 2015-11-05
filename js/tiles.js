@@ -3,14 +3,16 @@ tiles = function(){ /*Insert your own tiles here*/
 
 	/* READ THE TUTORIAL AT METRO-WEBDESIGN.INFO */
 	tileTitleText(0,0,0,2,1,'#1a8ec7','external:gotolink:links/mundodirectv.html','MUNDO DIRECTV','DIRECTV Perú es el líder de televisión satelital que ofrece una experiencia única de video con insuperable calidad de programación, tecnología y servicio.',['','',''],'');
-	tileLive(0,2,0,1,1,"#C33","","DirectTV","","","","",3000,["Bienvenido","","DirecTV Es el sistema de televisión satelital líder en el mundo","ofrece más canales y una espectacular selección de programación","Visitanos en www.directv.com.pe"],['','',''],"noClick");
+
+	tileLive(0,2,0,1,1,"#C33","","Nosotros","","","","",3000,["Bienvenido","","DirecTV Es el sistema de televisión satelital líder en el mundo","ofrece más canales y una espectacular selección de programación","Visitanos en www.directv.com.pe"],['','',''],"noClick");
+
 
 	tileTitleText(0,0,1,1,1,"#1a8ec7","external:gotolink:links/perfil.html","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
 
 	tileTitleText(0,1,1,2,1,"#F90","external:gotolink:links/valores.html","<h3 class='white' style='font-weight:lighter'>VALORES DE LA COMPAÑIA</h3>","",['','',''],'');
 
 	
-	tileImageSlider(0,0,2,2,1,'#854C8F','external:gotolink:links/beneficios.html','img/bg/img_300x145.jpg',1,"<h4 class='white'>Beneficios</h4>",0.4,['Leer beneficios','#854C8F','top'],'');
+	tileImageSlider(0,0,2,2,1,'#854C8F','external:gotolink:links/beneficios.html','img/bg/img_300x145.jpg',1,"<h4 class='white'>Beneficios</h4>",0.4,['Must read','#854C8F','top'],'');
 	tileImageSlider(0,2,2,1,1,"#BBB","external:gotolink:links/fotos.php","img/arrows/arrowRight.png",0.3,"<h5 class='align-center'>Ver las fotos</h5>",0.5,['','',''],'');
 	
 	tileLive(0,1,3,2,1,"#3B659C","external:gotolink:links/video.html","Video","img/icons/box_hint.png",50,2,5,6000,['Video DIRECTV','Haga click aqui'],['Click para reproducir','#789600','bottom'],'');
@@ -18,16 +20,16 @@ tiles = function(){ /*Insert your own tiles here*/
 	/*GROUP 2 */
 	
 	
-	tileImg(1,0,0,1,1,"#F60","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Ver Fotos','#789600','bottom','Fotos del evento',true],'');
-	tileImg(1,1,0,1,1,"#F90","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Fotos','#F90','top','Click para ver las fotos',true],'');
-	tileImg(1,2,0,1,1,"#C33","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Fotos','#C33','','',false],'');
+	tileImg(1,0,0,1,1,"#F60","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Fotos evento','#789600','bottom','DirecTV',true],'');
+	tileImg(1,1,0,1,1,"#F90","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Fotos','#F90','top','DirectTV',true],'');
+	tileImg(1,2,0,1,1,"#C33","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Fotos','#C33','bottom','DirecTV',false],'');
 	
 	/*GROUP 3 */
 	/*Fadeslide and fliphorizontal are effects, other options are 'fade','flipvertical'*/
 	tileSlideshow(2,0,0,2,2,"","",5000,true,"fadeslide",["img/bg/img1.png","img/bg/img2.jpg","img/bg/img3.jpg"],['Slideshow','#789600','top'],'noClick');
 	tileSlideshow(2,0,2,1,1,"","",2500,false,"fliphorizontal",["img/bg/img1.png","img/bg/img2.jpg","img/bg/img3.jpg"],['','',''],'noClick');
 	
-	tileCustom(2,1,2,1,1,"#BBB","#&home","<img src='img/arrows/arrowLeft.png' style='margin-top:42px;margin-left:52px;padding-bottom:15px;' height='41'><h4 class='align-center'>Ir inicio</h4>",['','',''],'');
+	tileCustom(2,1,2,1,1,"#BBB","#&home","<img src='img/arrows/arrowLeft.png' style='margin-top:42px;margin-left:52px;padding-bottom:15px;' height='41'><h4 class='align-center'>Go home</h4>",['','',''],'');
 }
 
 /*Tile Templates */

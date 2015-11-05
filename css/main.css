@@ -47,7 +47,7 @@ div#contentWrapper{
 	min-width: 400px;
 	min-height:400px;
 	margin:0 auto 60px auto; /* auto margin to center horizontally*/
-	padding:0 20px 30px 20px;
+	padding:0 20px 530px 20px;
 	z-index:4;
 }
 div.pageContent{
@@ -80,7 +80,7 @@ img#arrowLeft,img#arrowRight{
 	margin-top:60px;
 	opacity: 0.5;
 	filter:  alpha(opacity=50);
-	height:32px;
+	height:40px;
 	display:none;
 }
 img#arrowLeft:hover,img#arrowRight:hover{
