@@ -7,12 +7,14 @@ tiles = function(){ /*Insert your own tiles here*/
 	tileLive(0,2,0,1,1,"#C33","","Nosotros","","","","",3000,["Bienvenido","","DirecTV Es el sistema de televisión satelital líder en el mundo","ofrece más canales y una espectacular selección de programación","Visitanos en www.directv.com.pe"],['','',''],"noClick");
 
 
-	tileTitleText(0,0,1,1,1,"#1a8ec7","external:gotolink:links/perfil.html","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
+	//tileTitleText(0,0,1,1,1,"#1a8ec7","external:gotolink:links/perfil.html","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
+	tileImageSlider(0,0,1,1,1,'#1a8ec7','external:gotolink:links/beneficios.html','img/bg/directv.png',1,"<h4 class='white'>PERFILES</h4>",0.4,['','#854C8F','top'],'');
 
-	tileTitleText(0,1,1,2,1,"#F90","external:gotolink:links/valores.html","<h3 class='white' style='font-weight:lighter'>VALORES DE LA COMPAÑIA</h3>","",['','',''],'');
+	tileTitleText(0,1,1,2,1,"#1a8eFF","external:gotolink:links/valores.html","<h3 class='white' style='font-weight:lighter'>VALORES DE LA COMPAÑIA</h3>","",['','',''],'');
 
 	
 	tileImageSlider(0,0,2,2,1,'#854C8F','external:gotolink:links/beneficios.html','img/bg/beneficios.png',1,"<h4 class='white'>Beneficios</h4>",0.4,['Aqui los beneficios','#854C8F','top'],'');
+
 	tileImageSlider(0,2,2,1,1,"#BBB","external:gotolink:links/fotos.php","img/arrows/arrowRight.png",0.3,"<h5 class='align-center'>Ver las fotos</h5>",0.5,['','',''],'');
 	
 	tileLive(0,1,3,2,1,"#3B659C","external:gotolink:links/video.html","Video","img/icons/box_hint.png",50,2,5,6000,['Video DIRECTV','Haga click aqui'],['Click para reproducir','#789600','bottom'],'');
