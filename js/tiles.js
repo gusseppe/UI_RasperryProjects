@@ -22,7 +22,7 @@ tiles = function(){ /*Insert your own tiles here*/
 	
 	tileImg(1,0,0,1,1,"#F60","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Fotos evento','#789600','bottom','DirecTV',true],'');
 	tileImg(1,1,0,1,1,"#F90","external:gotolink:links/fotos.php","img/bg/img_square.jpg",1,1,['Fotos','#F90','top','DirectTV',true],'');
-	tileImg(1,2,0,1,1,"#C33","external:gotolink:links/subirVideo.html","img/bg/img_square.jpg",1,1,['Subir Fotos','#C33','bottom','Click Aqui',false],'');
+	tileImg(1,2,0,1,1,"#C33","external:gotolink:links/subir.php","img/bg/img_square.jpg",1,1,['Subir Fotos','#C33','bottom','Click Aqui',false],'');
 	
 	/*GROUP 3 */
 	/*Fadeslide and fliphorizontal are effects, other options are 'fade','flipvertical'*/
