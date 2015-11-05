@@ -8,6 +8,7 @@
 <title>CSS</title>
  
 <link rel="stylesheet" type="text/css" media="screen" href="css/css.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="css/your.css"/>
  
 <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,7 +21,7 @@
 	
 		<div class="nav">
 			<ul>
-				<li><a href="../index.php">Inicio</a></li>
+				<li><h1><a href="../index.php">Inicio</a></h1></li>
 				<li><a href="#" class="current">Fotos del evento</a></li>
 			</ul>
 		</div>
