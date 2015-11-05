@@ -26,8 +26,8 @@
 		if(in_array($file_ext,$expensions)=== false){
 			$errors[]="extension not allowed, please choose a JPEG or PNG file.";
 		}
-		if($file_size > 5242880){
-		$errors[]='File size must be excately 2 MB';
+		if($file_size > 15728640){
+		$errors[]='File size must be excately 15 MB';
 		}				
 		if(empty($errors)==true){
 			move_uploaded_file($file_tmp,"/var/www/html/mundodirectv/upload/".$file_name);
