@@ -1,0 +1,3 @@
+2) Estación Meteorológica usando Raspberry Pi. Mide temperatura y humedad
+visualizados en un browser haciendo un trazado de gráficos en tiempo real.
+Línea Internet de las cosas.
