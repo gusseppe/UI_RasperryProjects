@@ -28,10 +28,10 @@ tiles = function(){ /*Insert your own tiles here*/
 	
 	/*GROUP 3 */
 	/*Fadeslide and fliphorizontal are effects, other options are 'fade','flipvertical'*/
-	tileSlideshow(2,0,0,2,2,"","",5000,true,"fadeslide",["img/bg/img1.png","img/bg/img2.jpg","img/bg/img3.jpg"],['Slideshow','#789600','top'],'noClick');
-	tileSlideshow(2,0,2,1,1,"","",2500,false,"fliphorizontal",["img/bg/img1.png","img/bg/img2.jpg","img/bg/img3.jpg"],['','',''],'noClick');
+	tileSlideshow(2,0,0,2,2,"","",5000,true,"fadeslide",["img/bg/img1.png","img/bg/img2.jpg","img/bg/p1.png"],['Slideshow','#789600','top'],'noClick');
+	tileSlideshow(2,0,2,1,1,"","",2500,false,"fliphorizontal",["img/bg/img1.png","img/bg/img2.jpg","img/bg/p2.png"],['','',''],'noClick');
 	
-	tileCustom(2,1,2,1,1,"#BBB","#&home","<img src='img/arrows/arrowLeft.png' style='margin-top:42px;margin-left:52px;padding-bottom:15px;' height='41'><h4 class='align-center'>Go home</h4>",['','',''],'');
+	tileCustom(2,1,2,1,1,"#BBB","#&home","<img src='img/arrows/b3.png' style='margin-top:42px;margin-left:52px;padding-bottom:15px;' height='41'><h4 class='align-center'>Go home</h4>",['','',''],'');
 }
 
 /*Tile Templates */
