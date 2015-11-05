@@ -1250,7 +1250,7 @@ two columns for large devices
 ------------------------- */
 
 .grid-image-item,
-.grid--images .grid-sizer { width: 33.33%; }
+.grid--images .grid-sizer { width: 66.66%; }
 
 .grid-image-item {
   float: left;
