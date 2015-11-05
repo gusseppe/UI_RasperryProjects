@@ -63,7 +63,7 @@ if ($handle = opendir('../upload')) {
         { ?>
 
 <?php echo '<div class="grid-image-item">'.'<img src="../upload/'.$file.'"></div>'; ?>
-<?php echo ''; ?>
+<?php  ?>
  <?php           
 
         }

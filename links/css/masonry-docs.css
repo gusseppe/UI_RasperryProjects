@@ -666,10 +666,10 @@ code .masonry_keyword { color: #0FF; text-decoration: underline; }
 }
 
 /* responive column width */
-.masonry.masonry--percent-width .grid-sizer { width: 20%; }
-.masonry.masonry--percent-width .item { width: 20%; }
+.masonry.masonry--percent-width .grid-sizer { width: 80%; }
+.masonry.masonry--percent-width .item { width: 80%; }
 .masonry.masonry--percent-width .item.w2,
-.masonry.masonry--percent-width .item.w3 { width: 40%; }
+.masonry.masonry--percent-width .item.w3 { width: 80%; }
 
 #row-height-demo2 .grid-sizer {
   height: 60px;
