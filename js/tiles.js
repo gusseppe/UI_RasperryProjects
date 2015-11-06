@@ -8,7 +8,7 @@ tiles = function(){ /*Insert your own tiles here*/
 
 
 	//tileTitleText(0,0,1,1,1,"#1a8ec7","external:gotolink:links/perfil.html","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
-	tileImageSlider(0,0,1,1,1,'#1a8ec7','external:gotolink:links/beneficios.html','img/bg/directv.png',1,"<h4 class='white'>PERFILES</h4>",0.4,['','#854C8F','top'],'');
+	tileImageSlider(0,0,1,1,1,'#1a8ec7','external:gotolink:links/perfil.html','img/bg/directv.png',1,"<h4 class='white'>PERFILES</h4>",0.4,['','#854C8F','top'],'');
 
 	//tileTitleText(0,1,1,2,1,"#1a8eFF","external:gotolink:links/valores.html","<h3 class='white' style='font-weight:lighter'>VALORES DE LA COMPAÑIA</h3>","",['','',''],'');
 	tileImageSlider(0,1,1,2,1,'#1a8eFF','external:gotolink:links/valores.html','img/bg/val.png',1,"<h4 class='white'>VALORES DE LA COMPAÑIA</h4>",0.4,['VALORES DE LA COMPAÑIA','#1a8eFF','top'],'');
