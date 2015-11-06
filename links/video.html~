@@ -20,8 +20,8 @@
   </head>
   <body>
 
-<div class="navbar menubar" id="menu" style="background-color:#333230">
-    <div class="container" style="background-color:#333230">
+<div class="navbar menubar" id="menu" style="background-color:black">
+    <div class="container" style="background-color:black">
     <div class="navbar-header"> 
     	<button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar" >
 			<span class="glyphicon glyphicon-align-justify"></span>
