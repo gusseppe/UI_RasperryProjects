@@ -7,7 +7,6 @@
  
  
 <link rel="stylesheet" type="text/css" media="screen" href="css/css.css"/>
-<<<<<<< HEAD
 <link rel="stylesheet" type="text/css" media="screen" href="css/your.css"/>
 =======
 
