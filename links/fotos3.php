@@ -8,28 +8,37 @@
  
 <link rel="stylesheet" type="text/css" media="screen" href="css/css.css"/>
 <link rel="stylesheet" type="text/css" media="screen" href="css/your.css"/>
-=======
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/your.css"/>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+
 
   <title>Fotos</title>
 
 
->>>>>>> 122bda2689432dcd48b6cc561e2ee7b7f5bc4013
  
-<!--[if IE]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
- 
+
 </head>
  
 <body>   
-	<div id="container">
+<div class="navbar menubar" id="menu" style="background-color:#333230">
+    <div class="container" style="background-color:#333230">
+    <div class="navbar-header"> 
+    	<button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar" >
+			<span class="glyphicon glyphicon-align-justify"></span>
+		 </button>
+         <h1><a style="color:white" href="../index.php">DIRECTV</a><h1>
+    </div>
+    
+  </div>
+  </div>
+  </br>
+  </br>
+<div id="container">
 	
-		<div class="nav">
-			<ul>
-				<li><h1><a href="../index.php">Inicio</a></h1></li>
-				<li><a href="#" class="current">Fotos del evento</a></li>
-			</ul>
-		</div>
+		
 	
 		<ul id="myContent"> 			
 
