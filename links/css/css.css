@@ -33,11 +33,13 @@
     height: 60px;
     margin: 0px auto;
     font: 0.9em/60px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-    color: #c0c6e0;
+    /*color: #c0c6e0;*/
+    color: #000000;
 }
 
 .nav a {
-    color: #c0c6e0;
+    /*color: #c0c6e0;*/
+    color: #000000
     text-decoration: none;
 }
 

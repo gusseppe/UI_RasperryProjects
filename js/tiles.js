@@ -4,7 +4,7 @@ tiles = function(){ /*Insert your own tiles here*/
 	/* READ THE TUTORIAL AT METRO-WEBDESIGN.INFO */
 	tileTitleText(0,0,0,2,1,'#1a8ec7','external:gotolink:links/mundodirectv.html','MUNDO DIRECTV','DIRECTV Perú es el líder de televisión satelital que ofrece una experiencia única de video con insuperable calidad de programación, tecnología y servicio.',['','',''],'');
 
-	tileLive(0,2,0,1,1,"#C33","","Nosotros","","","","",3000,["Bienvenido","","DirecTV Es el sistema de televisión satelital líder en el mundo","ofrece más canales y una espectacular selección de programación","Visitanos en www.directv.com.pe"],['','',''],"noClick");
+	tileLive(0,2,0,1,1,"#FFA500","","Nosotros","","","","",3000,["Bienvenido","","DirecTV Es el sistema de televisión satelital líder en el mundo","ofrece más canales y una espectacular selección de programación","Visitanos en www.directv.com.pe"],['','',''],"noClick");
 
 
 	//tileTitleText(0,0,1,1,1,"#1a8ec7","external:gotolink:links/perfil.html","<h3 class='white' style='font-weight:lighter'>PERFILES</h3>","",['','',''],'');
@@ -25,7 +25,7 @@ tiles = function(){ /*Insert your own tiles here*/
 	
 	tileImg(1,0,0,1,1,"#F60","external:gotolink:links/fotos3.php","img/bg/imag1.JPG",1,1,['Fotos evento','#789600','bottom','DirecTV',true],'');
 	tileImg(1,1,0,1,1,"#F90","external:gotolink:links/fotos3.php","img/bg/imag2.JPG",1,1,['Fotos','#F90','top','DirectTV',true],'');
-	tileImg(1,2,0,1,1,"#C33","external:gotolink:links/subir.php","img/bg/imag3.JPG",1,1,['Subir Fotos','#C33','bottom','Click Aqui',false],'');
+	tileImg(1,2,0,1,1,"#C33","external:gotolink:links/subir.php","img/bg/imag3.JPG",1,1,['Subir Fotos','#BBB','bottom','Click Aqui',false],'');
 	
 	/*GROUP 3 */
 	/*Fadeslide and fliphorizontal are effects, other options are 'fade','flipvertical'*/

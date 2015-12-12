@@ -32,32 +32,38 @@
     });
   </script>
   </head>
+
+<link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/your.css"/>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+
+
+  <title>Fotos</title>
+
+
  
+
 </head>
  
 <body>   
-<div class="navbar menubar" id="menu">
-    <div class="container">
+	
+<div class="navbar menubar" id="menu" style="background-color:#333230">
+    <div class="container" style="background-color:#333230">
     <div class="navbar-header"> 
-    	<button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
+    	<button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar" >
 			<span class="glyphicon glyphicon-align-justify"></span>
 		 </button>
-    <a class="navbar-brand logo" href="../index.php">DIRECTV</a> 
+         <h1><a style="color:white" href="../index.php">DIRECTV</a><h1>
     </div>
-    <div>
-    	<nav class="collapse navbar-collapse" id="myNavbar" role="navigation">
-        <ul class="nav navbar-nav navbar-right navstyle">
-        <li><a href="#banner" class="page-scroll active">Fotos</a></li>
-        <li><a href="../index.php" class="page-scroll">Inicio</a></li>
-      </ul>
-      </nav>
-      </div>
+    
   </div>
   </div>
-<br>
-<br>
-	<div id="container">
+  </br>
+  </br>
+<div id="container">
 	
+		
 	
 		<ul id="myContent"> 			
 
